@@ -8,7 +8,7 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>Page title</title>
+        <title>musican</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
@@ -20,6 +20,7 @@ export default function App(props: AppProps) {
         withNormalizeCSS
         theme={{
           colorScheme: "dark",
+          primaryColor: "teal",
         }}
       >
         <Component {...pageProps} />
