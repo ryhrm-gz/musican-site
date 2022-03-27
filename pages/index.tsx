@@ -21,12 +21,12 @@ const Home: NextPage = () => {
         <Text size="sm" color="dimmed">
           Alpha version
         </Text>
-        <Group>
+        <Group position="center" spacing="xl">
           <Button<"a">
             component="a"
             href="https://github.com/ryhrm-gz/musican/releases/download/0.1.0-alpha.1/musican-0.1.0-alpha.1-arm64.dmg"
             leftIcon={<DownloadIcon />}
-            size="xs"
+            size="sm"
           >
             Mac - Arm64 - Download
           </Button>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             component="a"
             href="https://github.com/ryhrm-gz/musican/releases/download/0.1.0-alpha.1/musican-0.1.0-alpha.1-x64.dmg"
             leftIcon={<DownloadIcon />}
-            size="xs"
+            size="sm"
           >
             Mac - Intel64 - Download
           </Button>

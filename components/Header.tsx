@@ -5,10 +5,13 @@ import { Logo } from "./Logo";
 export const Header = () => {
   return (
     <MantineHeader height={50}>
-      <Group position="apart" sx={{ width: "100%", height: "100%" }} px="xs">
-        <Box sx={{ width: 100 }}></Box>
+      <Group
+        position="apart"
+        sx={{ width: "100%", height: "100%", maxWidth: 1000, margin: "auto" }}
+        px="md"
+      >
         <Logo style={{ width: "auto", height: 25 }} fill="white" />
-        <Group spacing="xs" sx={{ width: 100 }} position="right">
+        <Group spacing="xs" position="right">
           <ActionIcon<"a">
             component="a"
             href="https://github.com/ryhrm-gz/musican"
