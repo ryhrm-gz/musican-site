@@ -20,7 +20,12 @@ export default function App(props: AppProps) {
           url: "https://musican.vercel.app/",
           site_name: "musican",
           images: [
-            { url: "./icon_512x512.png", width: 512, height: 512, alt: "Icon" },
+            {
+              url: "https://musican.vercel.app/icon_512x512.png",
+              width: 512,
+              height: 512,
+              alt: "Icon",
+            },
           ],
         }}
       />
